@@ -32,6 +32,7 @@
     "axios": "^1.4.0",
     "firebase": "^10.1.0",
     "gsap": "^3.11.5",
+    "sitemap": "^7.1.1",
     "split-type": "^0.3.3",
     "vue3-lottie": "^2.7.0"
   }

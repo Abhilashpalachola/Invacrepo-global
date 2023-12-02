@@ -60,6 +60,7 @@ export default defineNuxtConfig({
     "@nuxt/image-edge",
     "@nuxtjs/robots",
     'nuxt-simple-sitemap',
+    '~/modules/sitemap'
   ],
   postcss: {
     plugins: {
@@ -70,6 +71,8 @@ export default defineNuxtConfig({
   site: {
     url: 'https://www.in-vac.com',
   },
-
+  sitemap: {
+    hostname: 'https://www.invac.in',
+  },
   devtools: true,
 });
