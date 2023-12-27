@@ -118,11 +118,11 @@
 <script setup>
 const menuState = useState("menu");
 
-const productName = ref('Stainless Steel')
+const productName = ref('Premium Stainless Steel Carpet Tool | Central Vacuum System | InVac')
 const productminiDescription = ref('Carpet Tool')
-const description = ref('Introducing the Upholstery Tool, a specialized cleaning accessory tailored for cleaning upholstered surfaces. With its unique design and soft bristles, this tool gently lifts away dirt, pet hair, and debris from furniture, cushions, and upholstery, leaving them fresh and revitalized. Restore the beauty of your upholstery with the convenience and effectiveness of the Upholstery Tool.')
+const description = ref('With this durable stainless steel carpet tool for central vacuum systems, you can clean your carpets with ease. Effortlessly lift dirt from carpets for a pristine clean.')
 useHead({
-    title: `World's Leading Wet and Dry Auto flush Central Vacuum Cleaner | INVAC - Your Cleaning Partner`,
+    title: productName.value,
 
     meta: [
         {
