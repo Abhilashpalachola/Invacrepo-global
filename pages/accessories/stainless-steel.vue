@@ -122,7 +122,7 @@ const productName = ref('Stainless Steel')
 const productminiDescription = ref('Carpet Tool')
 const description = ref('Introducing the Upholstery Tool, a specialized cleaning accessory tailored for cleaning upholstered surfaces. With its unique design and soft bristles, this tool gently lifts away dirt, pet hair, and debris from furniture, cushions, and upholstery, leaving them fresh and revitalized. Restore the beauty of your upholstery with the convenience and effectiveness of the Upholstery Tool.')
 useHead({
-    title: productName.value,
+    title: `World's Leading Wet and Dry Auto flush Central Vacuum Cleaner | INVAC - Your Cleaning Partner`,
     meta: [
         {
             name: 'description',
