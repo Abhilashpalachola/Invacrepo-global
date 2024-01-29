@@ -155,7 +155,7 @@
 
                 <div @click="citiesState = true"
                     class="flex items-center gap-x-4 text-neutral-400 translate-y-[100%] footer-anim-pop-wide">
-                    <span>Countries we are at---</span> <img src="@/assets/icons/orange-arrow-right.svg" class="h-6" alt="">
+                    <span>Countries we are at</span> <img src="@/assets/icons/orange-arrow-right.svg" class="h-6" alt="">
                 </div>
             </div>
         </div>
